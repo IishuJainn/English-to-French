@@ -37,7 +37,7 @@ The model is a seq2seq model with an encoder-decoder architecture. The encoder i
 The model is trained using the fit method from TensorFlow's Keras API. The training process uses the preprocessed training data to update the model's weights, and is run for 100 epochs with a batch size of 64. The model is trained using the categorical cross-entropy loss and the Adam optimizer.
 
 ## Usage
-To train the model, simply run the code in this repository. The trained model can then be used to generate English translations for new French sentences.
+To train the model, simply run the code in this repository. The trained model can then be used to generate English translations for new French sentences.We can also change some code to get english from french.
 
 ## Conclusion
 This code provides a basic example of how to train a seq2seq model for language translation using TensorFlow's Keras API. The code can be extended and modified to address different translation tasks and to experiment with different model architectures.
