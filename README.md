@@ -5,7 +5,7 @@ The Dataset is taken from "https://www.kaggle.com/datasets/digvijayyadav/frenche
 
 # TensorFlow Seq2Seq Model for Translation
 ## Introduction
-This repository contains code for training a seq2seq model for language translation using TensorFlow's Keras API. The model is trained on a dataset of French to English sentence pairs, and is able to generate French translations for new English sentences.
+This repository contains code for training a seq2seq model for language translation using TensorFlow's Keras API. The model is trained on a dataset of English to French sentence pairs, and is able to generate French translations for new English sentences.
 
 ## Requirements
 The code in this repository was developed using TensorFlow 2.x and requires the following packages:
@@ -15,14 +15,14 @@ tensorflow
 numpy
 
 ## Data
-The data used to train the model is a dataset of French to English sentence pairs. The dataset can be found in the input/frenchenglish/fra.txt file. The data is preprocessed to encode each sentence as a sequence of characters, and to create training examples that consist of pairs of input sequences (French sentences) and target sequences (English translations).
+The data used to train the model is a dataset of English to French pairs. The dataset can be found in the input/frenchenglish/fra.txt file. The data is preprocessed to encode each sentence as a sequence of characters, and to create training examples that consist of pairs of input sequences (French sentences) and target sequences (English translations).
 
 ## Preprocessing
 The preprocessing steps include:
 
 Reading the data from the fra.txt file
 
-Splitting the data into input texts (French sentences) and target texts (English translations)
+Splitting the data into input texts (English sentences) and target texts (French translations)
 
 Determining the unique characters in the input and target texts
 
